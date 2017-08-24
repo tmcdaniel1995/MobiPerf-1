@@ -30,9 +30,9 @@ public class Config {
    *  Min packet size =  (int type) + (int burstCount) + (int packetNum) +
    *                     (int intervalNum) + (long timestamp) +
    *                     (int packetSize) + (int seq) + (int udpInterval)
-   *                  =  35
+   *                  =  36
    */
-  public static final int MIN_PACKETSIZE = 35;
+  public static final int MIN_PACKETSIZE = 36;
   // Leave enough margin for min MTU in the link and IP options
   public static final int MAX_PACKETSIZE = 512;
   public static final int DEFAULT_UDP_PACKET_SIZE = 100;
@@ -44,7 +44,7 @@ public class Config {
    */
   public static final int MAX_INTERVAL = 10;
 
-  public static final int DEFAULT_TIMEOUT = 1000; // Max one-way delay, in microsec
+  public static final int DEFAULT_TIMEOUT = 1000; // Max one-way delay, in microsecond
   public static final int GLOBAL_TIMEOUT = 60000; // 'Catch-all' case
   
   public static final int PKT_ERROR = 1;
