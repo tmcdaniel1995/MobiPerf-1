@@ -30,9 +30,9 @@ public class Config {
    *  Min packet size =  (int type) + (int burstCount) + (int packetNum) +
    *                     (int intervalNum) + (long timestamp) +
    *                     (int packetSize) + (int seq) + (int udpInterval)
-   *                  =  36
+   *                  =  35
    */
-  public static final int MIN_PACKETSIZE = 36;
+  public static final int MIN_PACKETSIZE = 35;
   // Leave enough margin for min MTU in the link and IP options
   public static final int MAX_PACKETSIZE = 512;
   public static final int DEFAULT_UDP_PACKET_SIZE = 100;
